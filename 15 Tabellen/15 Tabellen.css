@@ -1,0 +1,14 @@
+table{
+    border: 2px solid green;
+}
+th{
+    border: 2px solid Red;
+    background: gray;
+    padding: 10px;
+}
+td{
+    border: 2px solid blue;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+}
