@@ -23,6 +23,11 @@ nav{
     margin-left: auto;
     margin-right: auto;
 }
-a{
-    color: yellowgreen;
+
+article{
+ padding-left:  40px;
+
+}
+h2{
+    padding-left: 40px;
 }
