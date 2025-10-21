@@ -1,0 +1,34 @@
+ ul li{
+    list-style: none;
+    float: left;
+    background: black;
+    color: #fff;
+    padding:10px 5px;
+    height: 44px;
+}
+ul li a{
+    display: block;
+   color: #fff; 
+   font-size: 18px;
+   width: 175px;
+   height: 40px;
+   text-align: center;
+   text-decoration: none;
+   border-bottom: solid 4px ;
+    line-height: 53px;
+}
+li:nth-child(1) a:hover {
+    border-color: purple;
+}
+li:nth-child(2) a:hover {
+    border-color: green;
+}
+li:nth-child(3) a:hover {
+    border-color:  red;
+}
+li:nth-child(4) a:hover {
+    border-color: blue;
+}
+li:nth-child(5) a:hover {
+    border-color: yellow;
+}
