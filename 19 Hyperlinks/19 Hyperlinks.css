@@ -1,0 +1,22 @@
+a:link{
+    display: block;
+    color: white;
+    width: 200px;
+    padding: 10px;
+    background: lightsalmon;
+    text-decoration: none;
+    border-radius: 20px 0 20PX 0;
+    margin: 10px;
+}
+a:visited{
+    background-color: lightsalmon;
+    color: maroon;
+}
+a:hover{
+    background-color: maroon;
+    color: lightsalmon;
+}
+
+a:active{
+    background-color: blue;
+}

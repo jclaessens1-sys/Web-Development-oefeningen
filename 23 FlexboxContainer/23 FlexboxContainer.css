@@ -1,0 +1,10 @@
+ .container{
+    display: flex;
+    background-color: lightblue;
+    flex-direction: row-reverse;
+}
+.container div{
+    background-color: silver;
+    margin: 2px;
+    padding: 5px;
+}
