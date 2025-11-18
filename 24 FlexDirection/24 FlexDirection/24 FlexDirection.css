@@ -1,17 +1,29 @@
 section {
+    background: white;
+    margin: 10px;
+    padding: 20px;
+
 }
 
 div {
+    display: flex;
+    background: blue;
+    margin: 10px 0;
 }
 
 .container-row {
+    flex-direction: row; /* default waarde hoeft niet mag je weglaten */
 }
 
 .container-row-reverse {
+    flex-direction: row-reverse;
 }
 
 .container-column {
+flex-direction: column;
 }
 
 .container-column-reverse {
+
+    flex-direction: column-reverse;
 }

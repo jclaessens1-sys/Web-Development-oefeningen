@@ -1,0 +1,40 @@
+body{
+    font-family: Bahnschrift;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid #000;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    background: #3d7068;
+    color: #fff;
+    padding: 20px;
+}
+main{
+    display: flex;
+}
+section{
+    flex:1;
+}
+figure{
+    flex:1;
+    margin: 20px 5px;
+}
+#border-collie{
+    width: 100%;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #43c59e;
+    color: #fff;
+}
