@@ -1,4 +1,6 @@
 body{
+    display: flex;
+    flex-direction: column;
     font-family: tahoma;
     margin: 0;
 }
@@ -12,7 +14,7 @@ header{
 nav{
     display: flex;
     background: #011627;
-    flex-direction: row;
+    color: #fff;
     justify-content: center;
     
 }
@@ -27,25 +29,31 @@ nav a:hover{
 }
 figure{
     width: 100%;
+    margin: 0;
 }
 main{
     display: flex;
-    width: 950px;
 }
-div{
+div{ /*doet niet echt iets */
     display: flex;
     flex-direction: column;
 }
 section{
     display: flex;
+    flex: 3;
     flex-direction:column ;
+    padding: 20px;
+    margin-left: 5px;
 }
 aside{
     display: flex;
+    flex:1;
     background: #D2CEC6;
-    flex-direction: column;
-    width: 150px;
-    
+    flex-direction: column; 
+    padding: 10px;
+}
+img{
+    width: 100%;
 }
 footer{
     display:flex;
